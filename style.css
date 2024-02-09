@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+        font-family: 'Roboto', sans-serif;
+   
+        font-family: 'Sacramento', cursive;
+}
+.bg-image{
+    background-image: url(./img/c-paral-02.jpg);
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-overlay{
+    width: 100%;
+    height: 950px;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+   
+.header ul li{
+    margin-right: 60px;
+    margin-top: 50px;
+}
+.header ul li a{
+    font-size: 20px;
+    
+}
+.header ul li a:hover{
+    color: #fff;
+}
+.bg-image .text{
+    display: flex;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+/* Missing part CSS */
+.missing-bg {
+    width: 100%;
+    height: 180px;
+    background-color: #98bf83;
+    position: relative;
+}
+.missing-bg .leaf-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.missing-bg .leaf-2 {
+    position: absolute;
+    top: 0;
+    left: 850px;
+}
+.leaf-1 img {
+    width: 80px;
+    margin-right: 119px;
+    margin-top: 50px;
+}
+.leaf-2 img {
+    width: 80px;
+    margin-top: 80px;
+}
+.icon-img img {
+    width: 100%;
+    height: 100px;
+}
+.leaf-1:hover{
+    transform: ;
+}
+
+/* Missing Part Css End here */
+
+/* Card Section Start Here */
+.bg-image2{
+    background-image: url(./img/c-gallery-03-768x768.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1050px;
+}
+.bg-overlay{
+    width: 100%;
+    height: 1050px;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+.card-1 {
+    height: 603px;
+    width: 1050px;
+    background-image: url(./img/bg-watercolor-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 182px 80px;
+}
+.card-2 {
+    height: 603px;
+    width: 1050px;
+    background-image: url(./img/bg-watercolor-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 182px 80px;
+}
+
+/* Card Section Ends Here */
+
+/* Location Section CSS Start here */
+.location-bg{
+    width: 50%;
+    height: 650px;
+    background-image: url(./img/c-paral-06.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.location{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    opacity: 0;
+}
+.location .btn1 {
+    width: 211px;
+    height: 61px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 50px;
+    border-color: #fff;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.location-bg :hover{
+    background-color: rgba(0, 0, 0, 0.347);
+    width: 100%;
+    height: 650px;
+    transition: 0.8s linear;
+    opacity: 100;
+}
+
+.location-bg2{
+    width: 50%;
+    height: 650px;
+    background-image: url(./img/bg-watercolor.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.bg-image3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 50%;
+    height: 650px;
+    background-image: url(./img/bg-watercolor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .bg-image4{
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/c-paral-09.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* .image-overlay :hover{
+    width: 100%;
+    height: 650px;
+}
+.bg-image4 :hover{
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.345);
+    transition: 0.8s linear;
+} */
+
+.bg-image4 img {
+    width: 950px;
+    height: 650px;
+}
+.bg-image4{
+    position: relative;
+}
+.inner-box {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    /* opacity: 0; */
+}
+.btn3{
+    width: 211px;
+    height: 61px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 50px;
+    border-color: #fff;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+.bg-image4 img :hover{
+    background-color: black;
+}
+
+/* Location section CSS End Here */
